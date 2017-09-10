@@ -1,0 +1,108 @@
+.body{
+			width: 1080px;
+			border: 1px solid black;
+			margin: auto;
+			background: linear-gradient(to right, #85E0C2 , #14B881);
+		}
+		.mainheading{
+			text-align: center;
+			border-bottom: 1px solid black;
+			margin: auto;
+			background-color: #85E0C2;
+		}
+		.navibar{
+			list-style-type: none;
+			border: 1px solid black;
+			padding: 15px;
+			margin: auto;
+			overflow: auto;
+			background-color: #14B881;
+		}
+		.navibar li{
+			position: relative;
+			overflow: auto;
+			padding: 15px;
+			display: inline-block;
+			float :left;
+			margin: 5px;
+			border: 1px solid black;
+			border-radius: 15px;
+			cursor: pointer;
+		}
+		.navibar li:hover{
+			background-color: #52E0C9;
+		}
+.navibar li a{
+	padding: 5px;
+}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.maincontent img{
+			width: 300px;
+			float: left;
+			height: 900px;
+			border: 1px solid black;
+		}
+		.announcements ul{
+			list-style-type: disc;
+			border: 1px solid black;
+		}
+		.announcements ul li{
+			padding: 5px;
+			
+		}
+		.partcontent{
+			clear:both;
+		}
+		footer{
+			position: relative;
+			bottom: 0px;
+			text-align: center;
+			height: 15px;
+			/*right: 0;
+bottom: 0;
+left: 0;
+padding: 10px;
+width: 98.1%;
+margin: 5px;
+background-color: #efefef;
+text-align: center;*/
+		}
+		.bottomnavbar{
+			clear: left;
+			border: 1px solid black;
+			bottom: 15px;
+			column-count: 2;
+			column-gap: 5px;
+			background-color: #14B881;
+}
+		.bottomnavbar ul{
+			float: left;
+		}
+		.linksbar ul{
+			clear: left;
+			list-style-type: none;
+			overflow: auto;
+			border: 1px solid black;
+			background-color: #14B881;
+			
+		}
+		.linksbar ul li{
+			float: left;
+			padding: 5px;
+		}
+.costumes p{
+			text-indent: 50px;
+			margin: 5px;
+	padding-left: 15px;
+		}
+		.items{
+			margin: auto;
+		}
+		.itembuttons li{
+			float: left;
+			margin: 5px;
+			padding: 5px;
+		}
