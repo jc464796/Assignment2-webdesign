@@ -23,7 +23,7 @@
 			overflow: auto;
 			padding: 15px;
 			display: inline-block;
-			float :left;
+			float :right;
 			margin: 5px;
 			border: 1px solid black;
 			border-radius: 15px;
@@ -35,32 +35,19 @@
 .navibar li a{
 	padding: 5px;
 }
+.maincontent{
+	height: 500px;
+}
 		a{
 			text-decoration: none;
 			color: black;
 		}
-		.maincontent img{
-			width: 300px;
-			float: left;
-			height: 900px;
-			border: 1px solid black;
-		}
-		.announcements ul{
-			list-style-type: disc;
-			border: 1px solid black;
-		}
-		.announcements ul li{
-			padding: 5px;
-			
-		}
-		.partcontent{
-			clear:both;
-		}
+		
 		footer{
 			position: relative;
 			bottom: 0px;
-			text-align: center;
 			height: 15px;
+			text-align: center;
 			/*right: 0;
 bottom: 0;
 left: 0;
@@ -71,16 +58,15 @@ background-color: #efefef;
 text-align: center;*/
 		}
 		.bottomnavbar{
-			clear: left;
 			border: 1px solid black;
 			bottom: 15px;
-			column-count: 2;
-			column-gap: 5px;
+			column-count: 3;
 			background-color: #14B881;
 }
 		.bottomnavbar ul{
 			float: left;
 		}
+
 		.linksbar ul{
 			clear: left;
 			list-style-type: none;
@@ -91,18 +77,6 @@ text-align: center;*/
 		}
 		.linksbar ul li{
 			float: left;
-			padding: 5px;
-		}
-.costumes p{
-			text-indent: 50px;
-			margin: 5px;
-	padding-left: 15px;
-		}
-		.items{
-			margin: auto;
-		}
-		.itembuttons li{
-			float: left;
-			margin: 5px;
-			padding: 5px;
+			padding: 15px;
+			width: 305px;
 		}
